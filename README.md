@@ -1,50 +1,82 @@
-# 📊 Bluestock Mutual Fund Capstone Project
+Bluestock Mutual Fund Capstone Project
 
-## Overview
-End-to-end data analytics project using Python, SQL, and Power BI.
+Overview
 
-## Project Workflow
+This project is an end-to-end data analytics solution for mutual fund performance analysis using Python, SQLite, and Power BI. The project demonstrates data ingestion, cleaning, validation, analysis, and visualization to generate actionable insights from mutual fund data.
+
+Project Workflow
+
 1. Data ingestion from raw CSV files
 2. Data cleaning and preprocessing
 3. Data validation checks
-4. Loading into SQLite database
-5. Analysis using Python (Pandas, NumPy)
-6. Visualization using Power BI
+4. Loading data into SQLite database
+5. Exploratory Data Analysis (EDA)
+6. Performance metrics calculation
+7. Power BI dashboard visualization
 
-## Folder Structure
-- data/ → raw & processed datasets
-- scripts/ → ETL pipeline scripts
-- notebooks/ → EDA analysis
-- db/ → SQLite database
-- dashboard/ → Power BI file
-- reports/ → final report & PPT
+Folder Structure
 
-## How to Run Project
+- data/ - Raw and processed datasets
+- scripts/ - ETL pipeline scripts
+- notebooks/ - EDA and analytics notebooks
+- reports/ - Final report and presentation
+- dashboard/ - Power BI dashboard files
 
-### Step 1: Activate environment
-```bash
+Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- SQLite
+- Power BI
+- Jupyter Notebook
+- Matplotlib
+- Seaborn
+
+How to Run
+
+Step 1: Activate Virtual Environment
+
 venv\Scripts\activate
-``` id="s1"
 
-### Step 2: Install dependencies
-```bash
+Step 2: Install Dependencies
+
 pip install -r requirements.txt
-``` id="s2"
 
-### Step 3: Run pipeline
-```bash
+Step 3: Run ETL Pipeline
+
 python scripts/run_pipeline.py
-``` id="s3"
 
-## Output
-- Clean datasets in data/processed/
-- SQLite database in db/
-- Power BI dashboard in dashboard/
-- Reports in reports/
+Outputs
 
-## Status
-✔ ETL Pipeline Completed  
-✔ Data Cleaning Completed  
-✔ EDA Completed  
-✔ Dashboard Ready  
-✔ Ready for Submission
+- Cleaned datasets
+- SQLite database
+- Analytical insights
+- Power BI dashboard
+- Final report
+- Presentation slides
+
+Key Features
+
+- Automated ETL Pipeline
+- Data Quality Validation
+- Exploratory Data Analysis
+- Performance Metrics Analysis
+- Dashboard Reporting
+- Data-Driven Insights
+
+Project Status
+
+- ETL Pipeline Completed
+- Data Cleaning Completed
+- Data Validation Completed
+- EDA Completed
+- Dashboard Completed
+- Documentation Completed
+- Ready for Submission
+
+Author
+
+Sathya Sai
+
+Bluestock Mutual Fund Capstone Project - 2026
